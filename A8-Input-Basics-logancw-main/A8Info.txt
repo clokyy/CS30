@@ -1,0 +1,84 @@
+Moodle Page: https://lo.rcsd.ca/mod/assign/view.php?id=147524
+Video Guide: https://www.youtube.com/watch?v=EUUL8lauHSE
+
+Moodle Text Copy:
+--------------------------
+Assignment #8 Input Basics
+Make a submission
+
+Assignment  Goal: This program was designed to teach you how to define, input, and output a variable.
+
+Project Description: Define, input, and print some variables and their values.
+
+Files Needed : None
+
+Comment Requirements:
+
+Program name: (The name you gave the program)
+
+Student name: (Your name)
+
+Date: (The date you completed the program)
+
+Program Description:
+
+ 
+
+***Remember you will need to start your own Java project and class for your assignment.  The pre-made program is just a guide.
+
+ You will need to write code that will perform the following:
+
+Using the code below as a start create a program that the user inputs and the program outputs two of the following variables: integer, double, (you can also explore float, short., byte, and long.)
+
+Add code that will add each of the pairs of variables together at the end of the program. 
+A sample output for number 1 is:
+
+integer one = 2
+
+integer two = 3
+
+double one = 4.0
+
+double two = 5.0
+
+A sample output for number 2 is:
+
+intOne + intTwo = 5
+
+doubleOne + doubleTwo = 9.0
+
+import static java.lang.System.*;
+
+import java.util.Scanner;
+
+public class Input
+
+{
+
+  public static void main (String[] args)
+
+  {
+
+      Scanner keyboard = new Scanner(System.in);
+
+      int intOne, intTwo; 
+
+      System.out.print("Enter an integer :: ");
+
+      intOne = keyboard.nextInt();
+
+ 
+
+      System.out.print("Enter an integer :: ");
+
+      intTwo = keyboard.nextInt();
+
+ 
+
+      System.out.println("integer one = " + intOne);
+
+      System.out.println("integer two = " + intTwo);
+
+   }
+
+}
